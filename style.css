@@ -1,6 +1,39 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+}
+
+body{
+    background-image:url('./banner-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    fill-opacity: blue;
+} 
+.counter-section{
+    margin: 10% auto;
+    color: tomato;
+}
+.icon-box{
+    border: 3px dotted crimson;
+    height: 100px;
+    width: 100px;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    margin: 20px auto;
+   
+}
+.fas{
+    transform: rotate(-45deg);
+    font-size: 40px;
+    padding: 20px;
+}
+
+.counter-box p{
+    font-size: 20px;
+
+}
+.counter-box .counter{
+    font-size: 80px;
+
 }
